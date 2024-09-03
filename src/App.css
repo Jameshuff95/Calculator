@@ -17,59 +17,70 @@ html {
   flex-direction: column;
   padding: 2%;
   box-shadow: 0 0 1rem black;
+}
 
-  .main {
-    height: 100%;
+.main {
+  height: 100%;
+}
 
-    .display_container {
-      border: 1px solid white;
-      border-radius: 20px;
-      height: 20%;
-      width: 100%;
-      background-color: black;
-      color: white;
-      display: flex;
-      justify-content: end;
-      align-items: center;
+.display_container {
+  border: 1px solid white;
+  border-radius: 20px;
+  height: 20%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+}
 
-      .display_cursor {
-        background-color: white;
-        width: 0.5rem;
-        height: 3.5rem;
-        margin-right: 0.5rem;
-        animation: blink 0.55s infinite;
-      }
-    }
+.text_container {
+  width: 95%;
+  margin: 0 auto;
+  text-align: right;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: 2rem;
+}
 
-    .buttons_container {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      place-items: center;
-      height: 80%;
+.display_cursor {
+  background-color: white;
+  width: 0.5rem;
+  height: 3.5rem;
+  margin-right: 0.5rem;
+  animation: blink 0.55s infinite;
+  position: relative;
+}
 
-      .button {
-        border: 1px solid black;
-        background-color: purple;
-        color: white;
-        width: 5rem;
-        font-size: 2rem;
-        height: 4rem;
-        border-radius: 20px;
-        display: grid;
-        place-items: center;
-      }
+.buttons_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+  height: 80%;
+}
 
-      .button:hover {
-        box-shadow: inset 0 0 1rem black;
-        cursor: pointer;
-        transform: scale(0.95);
-      }
+.button {
+  border: 1px solid black;
+  background-color: purple;
+  color: white;
+  width: 5rem;
+  font-size: 2rem;
+  height: 4rem;
+  border-radius: 20px;
+  display: grid;
+  place-items: center;
+}
 
-      .button:active {
-        background-color: black;
-      }
-    }
-  }
+.button:hover {
+  box-shadow: inset 0 0 1rem black;
+  cursor: pointer;
+  transform: scale(0.95);
+}
+
+.button:active {
+  background-color: black;
 }
 
 @keyframes blink {
