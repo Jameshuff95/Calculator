@@ -19,7 +19,7 @@ html {
   display: flex;
   flex-direction: column;
   padding: 2%;
-  box-shadow: 0 0 1rem red;
+  box-shadow: 0 0 1rem orangered;
 }
 
 .main {
@@ -28,6 +28,7 @@ html {
 
 .display_container {
   border: 1px solid white;
+  box-shadow: inset 0 0 3rem gray;
   border-radius: 20px;
   height: 20%;
   width: 100%;
@@ -99,7 +100,6 @@ html {
 footer {
   color: white;
   width: 90vw;
-  border: 1px solid red;
   display: flex;
   align-items: end;
   justify-content: center;
