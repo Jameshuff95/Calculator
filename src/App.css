@@ -10,10 +10,10 @@ html {
 
 .body {
   border: 1px solid black;
-  height: 75dvh;
-  width: 50dvh;
+  height: 80dvh;
+  width: 45dvh;
   max-width: 500px;
-  margin: 0;
+  margin: auto;
   border-radius: 20px;
   background-color: rgb(32, 32, 153);
   display: flex;
@@ -99,4 +99,5 @@ html {
 footer {
   color: white;
   text-align: center;
+  width: 90vw;
 }
