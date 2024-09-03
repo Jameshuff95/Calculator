@@ -1,11 +1,11 @@
 // run 'npm i -D prettier in terminal' to make prettier work.
 
-import './App.css';
+import Body from './Components/Body';
 
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <Body />
     </>
   );
 }
