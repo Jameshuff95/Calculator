@@ -1,3 +1,5 @@
+// run 'npm i -D prettier in terminal' to make prettier work.
+
 import './App.css';
 
 function App() {
