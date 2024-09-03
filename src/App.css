@@ -62,7 +62,8 @@ html {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   place-items: center;
-  height: 80%;
+  height: 70%;
+  margin-top: 10%;
 }
 
 .button {
